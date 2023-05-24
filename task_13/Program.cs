@@ -4,7 +4,7 @@
 //78 -> третьей цифры нет
 //32679 -> 6
 
-Console.Clear();                         
+Console.Clear();                                                                     //
 
 Console.Write("Введите любое целое число, состоящее из любого количества цифр: ");
 int num = int.Parse(Console.ReadLine()!);

@@ -10,5 +10,6 @@ Console.Write("Введите трёхзначное число: ");
 int num = int.Parse(Console.ReadLine()!);
 
 int num1 = (num / 10) % 10;
+if(num < 0) num1 = num1 * -1;
 
 Console.Write($"{num} -> {num1}");
